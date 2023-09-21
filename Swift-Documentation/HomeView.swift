@@ -9,7 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            VStack {
+                Text("SwiftUI Documentation")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .padding(20.0)
+                Spacer()
+            }
+            .foregroundStyle(.white)
+        }
     }
 }
 
