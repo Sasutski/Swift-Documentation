@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D900EAFC2ABC3B5F008EC59A /* SwiftPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = D900EAFB2ABC3B5F008EC59A /* SwiftPersistence */; };
 		D918F21E2ABBFEFB001F038A /* Swift_DocumentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918F21D2ABBFEFB001F038A /* Swift_DocumentationApp.swift */; };
 		D918F2202ABBFEFB001F038A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918F21F2ABBFEFB001F038A /* ContentView.swift */; };
 		D918F2222ABBFEFC001F038A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D918F2212ABBFEFC001F038A /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D900EAFC2ABC3B5F008EC59A /* SwiftPersistence in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = "Swift-Documentation";
+			packageProductDependencies = (
+				D900EAFB2ABC3B5F008EC59A /* SwiftPersistence */,
+			);
 			productName = "Swift-Documentation";
 			productReference = D918F21A2ABBFEFB001F038A /* Swift-Documentation.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +119,9 @@
 				Base,
 			);
 			mainGroup = D918F2112ABBFEFB001F038A;
+			packageReferences = (
+				D900EAFA2ABC3B5F008EC59A /* XCRemoteSwiftPackageReference "SwiftPersistence" */,
+			);
 			productRefGroup = D918F21B2ABBFEFB001F038A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -346,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D900EAFA2ABC3B5F008EC59A /* XCRemoteSwiftPackageReference "SwiftPersistence" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cheesetan/SwiftPersistence";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D900EAFB2ABC3B5F008EC59A /* SwiftPersistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900EAFA2ABC3B5F008EC59A /* XCRemoteSwiftPackageReference "SwiftPersistence" */;
+			productName = SwiftPersistence;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D918F2122ABBFEFB001F038A /* Project object */;
 }
