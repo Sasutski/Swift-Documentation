@@ -4,6 +4,6 @@ Swift Documentation App is and app that provides interactive notes for users to 
 
 ## Package Dependencies
 ---
-SwiftPersistance by [CheeseTan](https://github.com/cheesetan) and [KaiTheRedNinja](https://github.com/KaiTheRedNinja)
-\[link](https://github.com/cheesetan/SwiftPersistence)
+SwiftPersistance by [CheeseTan](https://github.com/cheesetan) and [KaiTheRedNinja](https://github.com/KaiTheRedNinja) \
+[link](https://github.com/cheesetan/SwiftPersistence)
 
