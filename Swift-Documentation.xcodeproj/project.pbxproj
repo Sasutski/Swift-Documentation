@@ -13,6 +13,7 @@
 		D918F2222ABBFEFC001F038A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D918F2212ABBFEFC001F038A /* Assets.xcassets */; };
 		D918F2252ABBFEFC001F038A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D918F2242ABBFEFC001F038A /* Preview Assets.xcassets */; };
 		D96F4E6E2ABC01DE007F4756 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F4E6D2ABC01DE007F4756 /* HomeView.swift */; };
+		D9E7C9582ABD49C800497DA0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7C9572ABD49C800497DA0 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D918F2212ABBFEFC001F038A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D918F2242ABBFEFC001F038A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D96F4E6D2ABC01DE007F4756 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9E7C9572ABD49C800497DA0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D918F21D2ABBFEFB001F038A /* Swift_DocumentationApp.swift */,
 				D918F21F2ABBFEFB001F038A /* ContentView.swift */,
 				D96F4E6D2ABC01DE007F4756 /* HomeView.swift */,
+				D9E7C9572ABD49C800497DA0 /* SettingsView.swift */,
 				D918F2212ABBFEFC001F038A /* Assets.xcassets */,
 				D918F2232ABBFEFC001F038A /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D96F4E6E2ABC01DE007F4756 /* HomeView.swift in Sources */,
+				D9E7C9582ABD49C800497DA0 /* SettingsView.swift in Sources */,
 				D918F2202ABBFEFB001F038A /* ContentView.swift in Sources */,
 				D918F21E2ABBFEFB001F038A /* Swift_DocumentationApp.swift in Sources */,
 			);

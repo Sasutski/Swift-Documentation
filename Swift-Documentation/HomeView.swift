@@ -19,7 +19,7 @@ struct HomeView: View {
                 Text("SwiftUI Documentation")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                    .padding(20.0)
+                    .padding(30.0)
                 Spacer()
                 Text(text)
                 
