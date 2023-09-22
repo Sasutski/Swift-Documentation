@@ -12,9 +12,6 @@ struct HomeView: View {
     @Persistent("text") var text = "Hello World"
     
     var body: some View {
-        ZStack {
-            Color.black
-                .ignoresSafeArea()
             VStack {
                 Text("SwiftUI Documentation")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
@@ -35,8 +32,6 @@ struct HomeView: View {
                     Text("Zhe Hao")
                 }
             }
-            .foregroundStyle(.white)
-        }
     }
 }
 

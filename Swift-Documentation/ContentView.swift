@@ -16,7 +16,7 @@ struct ContentView: View {
                 }
             SettingsView()
                 .tabItem {
-                    Label("Sent", systemImage: "gearshape.fill")
+                    Label("Settings", systemImage: "gearshape.fill")
                 }
         }
     }
