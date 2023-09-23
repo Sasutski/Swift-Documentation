@@ -11,6 +11,7 @@ import SwiftPersistence
 struct HomeView: View {
     @Persistent("text") var text = "Hello World"
     
+    
     var body: some View {
             VStack {
                 Text("SwiftUI Documentation")
